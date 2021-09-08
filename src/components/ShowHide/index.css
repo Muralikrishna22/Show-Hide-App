@@ -1,0 +1,52 @@
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+}
+
+.show-hide-btn {
+  height: 40px;
+  width: 250px;
+  color: #dd1264;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.name-card {
+  background-color: #fddddb;
+  color: black;
+  height: 130px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font: 25px bold;
+  font-family: Roboto;
+  border-radius: 20px;
+}
